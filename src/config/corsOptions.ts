@@ -9,6 +9,7 @@ const allowedOrigins = [
   'https://www.eduservices.fi',
   'https://eduservice.netlify.app/',
   'https://main--eduservice.netlify.app/',
+  'https://eduservices.herokuapp.com/api/v1',
 ]
 const corsOptions = {
   // @ts-ignore
