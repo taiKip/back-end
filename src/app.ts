@@ -26,7 +26,7 @@ app.set('port', process.env.PORT || 3000)
 app.use(apiContentType)
 app.use(express.json())
 //Cors middleware
-app.use(cors(options))
+//app.use(cors(options))
 app.use(bodyParser.urlencoded({extended:false}))
 //cookie middleware
 app.use(cookieParser())
